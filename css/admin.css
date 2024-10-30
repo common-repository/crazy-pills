@@ -1,0 +1,45 @@
+i.mce-ico.mce-i-buttons + span,
+i.mce-ico.mce-i-highlights + span,
+i.mce-ico.mce-i-bullets + span,
+i.mce-ico.mce-i-checks + span,
+i.mce-ico.mce-i-callouts + span {
+	display: none;
+}
+i.mce-ico.mce-i-callouts:before {
+	content: "\f488";
+}
+i.mce-ico.mce-i-checks:before {
+	content: "\f147";
+}
+i.mce-ico.mce-i-bullets:before {
+	content: "\f163";
+}
+i.mce-ico.mce-i-highlights:before {
+	content: "\f339";
+}
+i.mce-ico.mce-i-buttons:before {
+	content: "\f504";
+}
+i.mce-ico.mce-i-buttons:before,
+i.mce-ico.mce-i-highlights:before,
+i.mce-ico.mce-i-bullets:before,
+i.mce-ico.mce-i-callouts:before,
+i.mce-ico.mce-i-checks:before {
+	font: normal 20px/1 dashicons;
+	font-style: normal;
+	font-variant-ligatures: normal;
+	font-variant-caps: normal;
+	font-variant-numeric: normal;
+	font-weight: normal;
+	font-stretch: normal;
+	font-size: 20px;
+	line-height: 1;
+	font-family: dashicons;
+	padding: 0;
+	vertical-align: top;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin-left: -2px;
+	padding-right: 2px;
+}
